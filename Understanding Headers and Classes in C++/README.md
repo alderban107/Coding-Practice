@@ -1,5 +1,3 @@
-# Understanding Headers and Classes in C++
-
 # Project Purpose
 
 * To understand the *proper* way to use header files in C++

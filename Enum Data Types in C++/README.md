@@ -1,5 +1,3 @@
-# Enum Data Types in C++
-
 # Project Purpose
 
 * To show how to declare and use enum data types
