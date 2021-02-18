@@ -1,4 +1,4 @@
-# Respitory Purpose
+# Repository Purpose
 
 This repository is a catalogue of practice exercises I have done to better understand important features of various languages.
 
