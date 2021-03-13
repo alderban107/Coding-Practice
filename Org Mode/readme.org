@@ -1,0 +1,5 @@
+#+TITLE: Readme
+
+* Learning Org Mode
+
+This folder is full of my attempts at learning the different features of Org Mode. Things such as code blocks, formatting, and text editing will be documented in a (hopefully) nice looking manner.

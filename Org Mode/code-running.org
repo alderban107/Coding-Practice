@@ -1,0 +1,58 @@
+#+TITLE: Code Running
+
+* Hello world programs in interpreted languages
+
+#+NAME: Lua Test
+#+BEGIN_SRC lua :results output
+print("Hello, world!")
+#+END_SRC
+
+#+RESULTS: Lua Test
+: Hello, world!
+
+#+NAME: Python Test
+#+BEGIN_SRC python :results output
+print("Hello, world!")
+#+END_SRC
+
+#+RESULTS: Python Test
+: Hello, world!
+
+* Hello world programs in a compiled language
+
+#+NAME: C++ Test
+#+BEGIN_SRC C++ :results output
+#include <iostream>
+int main(){
+    std::cout << "Hello, world!";
+}
+#+END_SRC
+
+#+RESULTS: C++ Test
+: Hello, world!
+
+* Writing multi-part programs in multiple languages
+*Note*
+Compiled languages act a little weird. Have them output using the languages print features rather than returning values.
+
+#+NAME: cpp-multi
+#+BEGIN_SRC C++ :results output
+#include <iostream>
+int main(){
+    int i = 1;
+    i++;
+    std::cout << i;
+}
+#+END_SRC
+
+#+RESULTS: cpp-multi
+: 2
+
+#+NAME: python-multi
+#+BEGIN_SRC python :var i=cpp-multi :results output
+i+=1
+print(i)
+#+END_SRC
+
+#+RESULTS: python-multi
+: 3
