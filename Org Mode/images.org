@@ -1,0 +1,13 @@
+#+TITLE: Images
+
+#+CAPTION: This is a cute cat!
+#+NAME: Cat
+[[./images/cat.jpg]]
+
+#+CAPTION: This is a cute dog!
+#+NAME: Dog
+[[./images/dog.jpg]]
+
+#+CAPTION: This is a scary dragon!
+#+NAME: Dragon
+[[./images/dragon.jpg]]
