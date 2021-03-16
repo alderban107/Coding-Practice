@@ -1,5 +1,8 @@
 #+TITLE: Images
 
+NOTE: Captions do not render on Github, but are still required for images to work properly.
+
+
 #+CAPTION: This is a cute cat!
 #+NAME: Cat
 [[./images/cat.jpg]]
